@@ -1,70 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: aqua;
-    color:darkslategray;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: aqua;
+  color: darkslategray;
 }
 
-.container{
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
+.container {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
-.container h1{
-    font-size: 3rem;
-    margin: 20px;
-    margin-bottom: 2px;
-    border-bottom: 2px solid;
-    display: inline;
+.container h1 {
+  font-size: 3rem;
+  margin: 20px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid;
+  display: inline;
 }
 
-.main-form{
-    margin: 20px 420px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color:cadetblue;
-    width: 40%;
-    height: 500px;
-    font-size: 1.5rem;
-    padding: 10px;  
-    color: black;
-    text-align: left; 
+.main-form {
+  margin: 20px 420px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: cadetblue;
+  width: 40%;
+  height: 500px;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: black;
+  text-align: left;
 }
 
-.main-form form label{
-    margin: 20px 60px;
+.main-form form label {
+  margin: 20px 60px;
 }
 
-.main-form form input,select{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 80px;
-    width: 400px;
-    height: 30px;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    color: black;
-    background-color:blanchedalmond;
+.main-form form input,
+select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: blanchedalmond;
 }
 
-
-#btn{
-    width: 300px;
-    margin-left: 130px;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    height: 40px;
-    cursor: pointer;
+#btn {
+  width: 300px;
+  margin-left: 130px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  height: 40px;
+  cursor: pointer;
 }
 
-#btn:hover{
-    background-color: black;
-    color: blanchedalmond;
+#btn:hover {
+  background-color: black;
+  color: blanchedalmond;
+}
+
+.totaltip {
+  text-align: center;
+  margin: 20px auto;
 }

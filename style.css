@@ -56,8 +56,8 @@ select {
 }
 
 #btn {
-  width: 300px;
-  margin-left: 130px;
+  width: 200px;
+  margin: 10px 170PX;
   font-weight: bold;
   font-size: 20px;
   padding: 10px;
@@ -71,6 +71,7 @@ select {
 }
 
 .totaltip {
-  text-align: center;
-  margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 70px;
 }

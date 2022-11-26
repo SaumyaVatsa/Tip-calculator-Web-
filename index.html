@@ -11,20 +11,19 @@
     <div class="container">
       <h1>Tip Calculator</h1>
       <div class="main-form">
-        <form name="tipCalc">
+        <form name="tipCalc" >
           <label for="bill-amount">Bill Amount: </label>
           <br />
           <input
             type="text"
-            name="bill"
+            id="bill"
             placeholder="Enter Bill Amount....."
-            required
           />
           <br />
           <label for="rating ">Rate the Service: </label>
           <br />
-          <select name="rating">
-            <option value="default">Rating</option>
+          <select id="options">
+            <option value="0">Rating</option>
             <option value="0.25">25% - Top Notch</option>
             <option value="0.20">20% - Excellent</option>
             <option value="0.15">15% - Very Good</option>
@@ -36,12 +35,11 @@
           <br />
           <input
             type="text"
-            name="numberPerson"
+            id="person"
             placeholder="Number of Persons...."
-            required
           />
           <br />
-          <input type="submit" value="Calculate Tip!" id="btn" />
+          <input type="button" value="Calculate Tip!" id="btn" />
         </form>
         <div class="totaltip">
           <p id="tip">0.00</p>
@@ -49,5 +47,6 @@
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
